@@ -1,0 +1,50 @@
+<form class="container" [formGroup]="form">
+    <h2>Desserts</h2>
+
+    <label>Red velvet: </label>
+    <div class="form-control-1">
+        <img class="pizza" src="assets/images/Red velvet.png" alt="cake" width="42" height="42" style="vertical-align:middle">
+        <app-counter-input class="quantity" formControlName="red_velvet" style="width: 105px;" ></app-counter-input>
+    </div>
+
+    <label>Hazelnut cake: </label>
+    <div class="form-control-1">
+        <img class="pizza" src="assets/images/Hazelnut cake.png" alt="cake" width="42" height="42" style="vertical-align:middle">
+        <app-counter-input class="quantity" formControlName="hazelnut_cake" style="width: 105px;" ></app-counter-input>
+    </div>
+
+    <label>Honey cake: </label>
+    <div class="form-control-1">
+        <img class="pizza" src="assets/images/Honey cake.png" alt="cake" width="42" height="42" style="vertical-align:middle">
+        <app-counter-input class="quantity" formControlName="honey_cake" style="width: 105px;" ></app-counter-input>
+    </div>
+
+    <label>Malina cake: </label>
+    <div class="form-control-1">
+        <img class="pizza" src="assets/images/Malina cake.png" alt="cake" width="42" height="42" style="vertical-align:middle">
+        <app-counter-input class="quantity" formControlName="malina_cake" style="width: 105px;" ></app-counter-input>
+    </div>
+
+    <label>White Sunday: </label>
+    <div class="form-control-1">
+        <img class="pizza" src="assets/images/White Sunday.png" alt="cake" width="42" height="42" style="vertical-align:middle">
+        <app-counter-input class="quantity" formControlName="white_sunday" style="width: 105px;" ></app-counter-input>
+    </div>
+
+    <label>Bavaria cake: </label>
+    <div class="form-control-1">
+        <img class="pizza" src="assets/images/Bavaria cake.png" alt="cake" width="42" height="42" style="vertical-align:middle">
+        <app-counter-input class="quantity" formControlName="bavaria_cake" style="width: 105px;" ></app-counter-input>
+    </div>
+
+    <label>Chocolate cake: </label>
+    <div class="form-control-1">
+        <img class="pizza" src="assets/images/Chocolate cake.png" alt="cake" width="42" height="42" style="vertical-align:middle">
+        <app-counter-input class="quantity" formControlName="chocolate_cake" style="width: 105px;" ></app-counter-input>
+    </div>
+
+    <pre class="form-values">
+        {{ form.value | json }}
+    </pre>
+
+</form>

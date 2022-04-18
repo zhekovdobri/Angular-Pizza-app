@@ -1,0 +1,76 @@
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="container">
+    <div class="row text-light m-4">
+        <hr>
+        <h1>Contact us</h1>
+        <p>
+            Every year millions of people visit Norway and we welcome every one of you. "Velkommen" as we say here in Norway. Hopefully Alexander's Pizza will answer your questions. If you haven't found what you were looking for please use the categories below. 
+        </p>
+    </div>
+    <div class="row text-light m-4">
+        <div class="col-lg-4">
+            <h5>Address NORWAY</h5>
+            <ul style="list-style-type: none;">
+                <li>| Tlf: +47 95235507</li>
+                <li>| E-post: dobri_malchev@abv.bg</li> 
+                <li>| Adresse: 5209 Os, Lyhaugen 6</li>
+            </ul>
+        </div>
+        <div class="col-lg-4">
+            <h5>Address USA</h5>
+            <ul style="list-style-type: none;">
+                <li>| Address: 300 W. 22nd Street</li>
+                <li>| Oak Brook, IL 60523-8842 USA</li>
+                <li>| Phone: +1 (630) 571-5466</li>
+                <li>| Phone: +1 (630) 571-5466</li>
+            </ul>
+        </div>
+        <div class="col-lg-4"> 
+            <ul *ngFor="let item of social" class="text-light">
+                <li class="text-light" style="list-style-type: none;">
+                    <a href="{{item.href}}" class="{{item.net}} text-light">
+                        <i class="{{item.icon}}" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>  
+    </div>  
+</div>
+           
+
+  <!--
+    <div class="col-sm-3 text-light">
+        <ul *ngFor="let item of social" style="list-style-type: none;">
+            <li>
+                <a href="{{item.href}}" class="{{item.a_class}}" target="_blank">
+                    <i class="{{item.i_class}}" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+  
+        <li>
+            <a href="https://www.instagram.com/lionsclubs/" class="instagram" target="_blank">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/company/lions-clubs-international" class="linkedin" target="_blank">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+        </li>
+        
+        <li>
+            <a href="https://twitter.com/lionsclubs" class="twitter" target="_blank">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://youtube.com/lionsclubs" class="youtube" target="_blank">
+                <i class="fa fa-youtube" aria-hidden="true"></i>
+            </a>
+        </li>
+    </div>
+</div>
+-->

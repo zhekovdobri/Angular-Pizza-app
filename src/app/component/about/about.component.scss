@@ -1,0 +1,21 @@
+
+.container {  
+    border: 1px solid grey;
+    max-width: 60%;
+    padding: 20px 20px;
+    margin: 30px auto;
+    
+    h1, p {
+    color:white;
+    } 
+    h1 {
+        text-align: center;
+    }
+    p {
+        text-align: justify; 
+        line-height: 29px;
+        font-size: 20px;
+    }
+}
+
+

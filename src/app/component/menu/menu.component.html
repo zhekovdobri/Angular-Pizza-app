@@ -1,0 +1,43 @@
+
+<div class="display-4 text-center text-light mt-5" style="font-family:'Lucida Sans Unicode', 'Lucida Grande'">Menu</div>
+<form class="container mt-5" [formGroup]="form">
+    <div  class="row" >
+        <div class="col-lg-3">
+            <app-hot-drinks class="app"></app-hot-drinks>
+        </div>
+        <div class="col-lg-3">
+            <app-non-alcoholic class="app"></app-non-alcoholic>
+        </div>
+        <div class="col-lg-3">
+            <app-pizza class="app"></app-pizza>
+        </div>
+        <div class="col-lg-3">
+            <app-salad class="app"></app-salad>
+        </div>
+        
+    </div>    
+</form>
+
+<form class="container" [formGroup]="form">
+        
+    <div class="row">
+        <div class="form-control-1">
+            <input type="text" placeholder="Full name:" formControlName="name" />
+        </div>
+        <div class="form-control-1">
+            <input type="text" placeholder="Streeet Address:" formControlName="address" />
+        </div>
+        <div class="form-control-1">
+            <input type="text" placeholder="Phone" formControlName="phone" />
+        </div>
+        <div class="button">
+            <button type="submit">Place order</button>
+            <button style="background-color: grey;" type="button" (click)="clearForm(form)">Reset</button>
+        </div>
+    </div>
+        <!--
+        <pre class="form-values">
+            {{ form.value | json }}
+        </pre>
+        --> 
+</form>

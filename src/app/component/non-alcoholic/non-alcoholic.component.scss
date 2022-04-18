@@ -1,0 +1,28 @@
+.form-control-1 {
+    display: flex;
+    margin: 5px auto 5px;
+    padding-bottom: 5px;
+    transition: transform .2s;
+}
+.pizza {
+    margin-right: 10px;
+}
+
+.pizza:hover {
+    transform: scale(2.5);
+    cursor: pointer;
+    margin-right: 35px;     
+}
+
+.quantity {
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    border-color: peru;
+    background-color: #e6a77d;
+    cursor: pointer;
+}   
+.input {
+    padding: 50px;
+}
+

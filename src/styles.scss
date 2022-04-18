@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+
+body {
+    //background-color: #f5c7aa;
+    background-color: black;
+    height: 200vh;
+
+    
+    .background_images_right {
+        position: absolute;
+        right: 15%; 
+    }
+    .background_images_left {
+        position: absolute;
+        left: 16%; 
+    }
+
+    label {
+        font-family: cursive;
+        color: rgb(185, 8, 8);
+    }
+    input {
+        height: 30px;
+    }
+    
+}
+
+
+

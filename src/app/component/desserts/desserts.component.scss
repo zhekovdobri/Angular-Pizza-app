@@ -1,0 +1,38 @@
+.row {
+    margin: 20px;
+}
+/*.label {
+    display: block;
+    margin-bottom: 5px;
+}*/
+
+.form-control-1 {
+    display: flex;
+    margin: 5px auto 5px;
+    padding-bottom: 5px;
+    width: 220px;
+    transition: transform .2s;
+}
+.pizza {
+    margin-right: 10px;
+}
+
+.pizza:hover {
+    transform: scale(2.5);
+    cursor: pointer;
+    margin-right: 35px;     
+}
+
+.quantity {
+    display: flex;
+    flex-direction: row;
+    border-radius: 0 5px 5px 0;
+    border-color: peru;
+    height: 30px;
+    background-color: #e6a77d;
+    cursor: pointer;
+}   
+.quantity:hover {
+    background-color: rgb(141, 6, 6);
+    color: white;
+}

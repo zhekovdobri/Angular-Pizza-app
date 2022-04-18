@@ -1,0 +1,51 @@
+<form class="container" [formGroup]="form">
+      <h2>Alcohol</h2>
+
+      <label>Guinness: </label>
+      <div class="form-control-1">
+         <img class="pizza" src="assets/images/Guiness.png" alt="beer" width="42" height="42" style="vertical-align:middle">
+         <app-counter-input class="quantity" formControlName="guiness" style="width: 105px;" ></app-counter-input>
+      </div>
+
+      <label>Heineken: </label>
+      <div class="form-control-1">
+         <img class="pizza" src="assets/images/Heineken.png" alt="beer" width="42" height="42" style="vertical-align:middle">
+         <app-counter-input class="quantity" formControlName="heineken" style="width: 105px;" ></app-counter-input>
+      </div>
+
+      <label>Tuborg: </label>
+      <div class="form-control-1">
+         <img class="pizza" src="assets/images/Tuborg.png" alt="beer" width="42" height="42" style="vertical-align:middle">
+         <app-counter-input class="quantity" formControlName="tuborg" style="width: 105px;" ></app-counter-input>
+      </div>
+
+      <label>Carlsberg: </label>
+      <div class="form-control-1">
+         <img class="pizza" src="assets/images/Carlsberg.png" alt="beer" width="42" height="42" style="vertical-align:middle">
+         <app-counter-input class="quantity" formControlName="carlsberg" style="width: 105px;" ></app-counter-input>
+      </div>
+
+      <label>Cabernet: </label>
+      <div class="form-control-1">
+         <img class="pizza" src="assets/images/Cabernet.png" alt="wine" width="42" height="42" style="vertical-align:middle">
+         <app-counter-input class="quantity" formControlName="cabernet" style="width: 105px;" ></app-counter-input>
+      </div>
+
+      <label>Merlot: </label>
+      <div class="form-control-1">
+         <img class="pizza" src="assets/images/Merlot.png" alt="wine" width="42" height="42" style="vertical-align:middle">
+         <app-counter-input class="quantity" formControlName="merlot" style="width: 105px;" ></app-counter-input>
+      </div>
+
+      <label>Cardonnay: </label>
+      <div class="form-control-1">
+         <img class="pizza" src="assets/images/Cardonnay.png" alt="wine" width="42" height="42" style="vertical-align:middle">
+         <app-counter-input class="quantity" formControlName="cardonnay" style="width: 105px;" ></app-counter-input>
+      </div>
+
+      <pre class="form-values">
+         {{ form.value | json }}
+      </pre>
+   
+   </form>
+   
