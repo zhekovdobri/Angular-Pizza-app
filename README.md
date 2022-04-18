@@ -1,10 +1,10 @@
-<img align="justify" alt="chart" width="950px" src="https://github.com/zhekovdobri/Angular-project-Pizza/blob/main/src/assets/images/Angular-project-Pizza1200px.gif">
+<img align="justify" alt="chart" width="950px" src="https://github.com/zhekovdobri/Angular-Pizza-app/blob/main/assets/images/Angular-project-Pizza_1200px.gif">
 
 # Angular-project-Pizza
 
 #### By: Dobri Zhekov
 
-#### [<ins>Check the entire project here</ins>](https://zhekovdobri.github.io/Angular-project-Pizza/)
+#### [<ins>Check the entire project here</ins>](https://zhekovdobri.github.io/Angular-Pizza-app/)
 
 ## Technologies Used
 
