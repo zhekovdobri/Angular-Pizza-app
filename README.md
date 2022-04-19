@@ -24,7 +24,7 @@
 <br />
 
 ## Description
-The idea of this project came along time ago and the reason was a collage of mine who dreamed to become a pizza master chef. He neglected all his job as a programmer and start to make a pizza. Nothing wrong with that Alex! That is why I decided to help him creating this project. The project represents a simple form to order food and drinks thru this app. Here I use a reactive forms to manage the user input. That is why the first thing after creation my app was to import { ReactiveFormsModule } in to "app.module.ts".
+The idea of this project came along time ago and the reason was a collage of mine who dreamed to become a pizza master chef. He neglected all his job as a programmer and start to make a pizza. Nothing wrong with that Alex! That is why I decided to help him creating this project. The project represents a simple form to order food and drinks thru this app. I use here a reactive forms to manage the user input. That is why the first thing after my app creation was to import { ReactiveFormsModule } in to "app.module.ts".
 <br />
 
 `import { ReactiveFormsModule } from '@angular/forms';`
@@ -37,6 +37,26 @@ The project starts with a header and component which presents the header backgro
     <app-images></app-images>
 </div> 
 ```
+I used string interpolation to make my "food" and "drinks" components reusable. This way the code is much more clearer and short for use. Then I can put this reusable template with code where I want and change its value when I want. For this purpose I created into the "component.ts" file an array which holds the parameters with my desired values. 
+```
+export class HotDrinksComponent implements OnInit {
+    
+    data3 = [{
+        label:'Cappuccino: ',
+        src:'assets/images/Cappuccino.png',
+        formControlName:'cappuccino'
+    },{
+        label:'Mocha: ',
+        src:'assets/images/Mocha.png',
+        formControlName:'mocha'
+    },{
+        label:'Americano: ',
+        src:'assets/images/Americano.png',
+        formControlName:'americano' 
+    }];
+    }
+```
+    
 On this project I used SCSS instead CSS. Next to it I created a form which hold the "food" and the "drinks" selectors.  and another form which contains the inputs for "name-address-phone". The "food" and "drinks" forms along with "address-name-phone" form have at the bottom json pipe {{ value_expression | json }}. Json pipe converts a value into its JSON-format. When the customer typing his order, json changing it's value on the bootm of the page. In to the all of my components in theirs "ts" file I have used the "createFomr()" method, which contains the definition of my form fields. The exception is the "counter-input" component.....Under construction!!!
 
 </div>
