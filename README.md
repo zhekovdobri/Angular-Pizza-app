@@ -18,7 +18,6 @@
 
 * _TypeScript_
 * _CSS_
-* _JavaScript_
 * _HTML_
 
 
