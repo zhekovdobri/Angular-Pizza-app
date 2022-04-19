@@ -38,10 +38,6 @@ The project starts with a header and component which presents the header backgro
     <app-images></app-images>
 </div> 
 ```
-Then I set food images on both sides of the body. For this puspose I created another two separate components in my component folder
-<br />
-`<background_images_left>
-<background_images_right>` <br />
 On this project I used SCSS instead CSS. Next to it I created a form which hold the "food" and the "drinks" selectors.  and another form which contains the inputs for "name-address-phone". The "food" and "drinks" forms along with "address-name-phone" form have at the bottom json pipe {{ value_expression | json }}. Json pipe converts a value into its JSON-format. When the customer typing his order, json changing it's value on the bootm of the page. In to the all of my components in theirs "ts" file I have used the "createFomr()" method, which contains the definition of my form fields. The exception is the "counter-input" component.....Under construction!!!
 
 </div>
