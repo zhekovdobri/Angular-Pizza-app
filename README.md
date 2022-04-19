@@ -37,7 +37,7 @@ The project starts with a header and component which presents the header backgro
     <app-images></app-images>
 </div> 
 ```
-I used string interpolation to make my "food" and "drinks" components reusable. This way the code is much more clearer and short for use. Then I can put this reusable template with code where I want and change its value when I want. For this purpose I created into the "component.ts" file an array which holds the parameters with my desired values. 
+I used string interpolation to make my "food" and "drinks" components reusable. This way the code is much more clearer and short for use. Then I can put this reusable template with code where I want and change its value when I want. For this purpose I created into the components ".ts" file an array which holds the parameters with my desired values. 
 ```
 export class HotDrinksComponent implements OnInit {
     
@@ -56,7 +56,25 @@ export class HotDrinksComponent implements OnInit {
     }];
     }
 ```
-    
+Then into the component ".html" file I created a template which uses a string interpolation {{keyword.array}} to display my parameters values and an "ngFor" loop directive which iterates my array content.
+```
+<div class="container margin-30">
+   <div class="card">
+     <div class="card-body">
+         <form [formGroup]="form">
+            <h2 class="text-center">Hot drinks</h2>
+            <div *ngFor="let item of data3">
+               <label>{{item.label}}</label>
+               <div class="form-control-1">
+                  <img class="pizza" src="{{item.src}}" alt="coffe" width="42" height="42" >
+                  <app-counter-input class="quantity h-100" formControlName="{{item.formControlName}}" style="width: 105px;" ></app-counter-input>
+               </div>
+            </div>  
+         </form>
+      </div>
+   </div>
+</div>
+```
 On this project I used SCSS instead CSS. Next to it I created a form which hold the "food" and the "drinks" selectors.  and another form which contains the inputs for "name-address-phone". The "food" and "drinks" forms along with "address-name-phone" form have at the bottom json pipe {{ value_expression | json }}. Json pipe converts a value into its JSON-format. When the customer typing his order, json changing it's value on the bootm of the page. In to the all of my components in theirs "ts" file I have used the "createFomr()" method, which contains the definition of my form fields. The exception is the "counter-input" component.....Under construction!!!
 
 </div>
