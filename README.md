@@ -69,7 +69,10 @@ Then into the component ".html" file I created a template which uses a string in
                   <img class="pizza" src="{{item.src}}" alt="coffe" width="42" height="42" >
                   <app-counter-input class="quantity h-100" formControlName="{{item.formControlName}}" style="width: 105px;" ></app-counter-input>
                </div>
-            </div>  
+            </div>
+            <pre class="form-values">
+               {{ form.value | json }}
+             </pre>
          </form>
       </div>
    </div>
