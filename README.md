@@ -1,4 +1,4 @@
-<img align="justify" alt="chart" width="950px" src="https://github.com/zhekovdobri/Angular-Pizza-app/blob/main/assets/images/Angular-project-Pizza_1200px.gif">
+<img align="justify" alt="chart" width="950px" src="https://github.com/zhekovdobri/Angular-Pizza-app/blob/main/assets/images/Alexander_Pizza1200px.gif">
 
 # Angular-project-Pizza
 
