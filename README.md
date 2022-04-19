@@ -1,6 +1,6 @@
 <img align="justify" alt="chart" width="950px" src="https://github.com/zhekovdobri/Angular-Pizza-app/blob/main/assets/images/Alexander_Pizza1200px.gif">
 
-# Angular-project-Pizza
+# Angular-Pizza-app
 
 #### By: Dobri Zhekov
 
@@ -104,7 +104,7 @@ On this project I used SCSS instead CSS. Next to it I created a form which hold 
 * **Clone over SSH**<br>
   $ git clone (ssh://..)
 
-# Angular-project-Pizza
+# Angular-Pizza-app
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.
 
@@ -135,6 +135,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## License
 
 
-Angular-project-Pizza is licensed under the GNU GPL 3 license.
+Angular-Pizza-app is licensed under the GNU GPL 3 license.
 
 <sub><sup>Copiright © 2016-2021 Dobri Zhekov All Rights Reserved</sup></sub>
