@@ -13,7 +13,7 @@
 </div>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <div class=pull-right>
-<img align="right" alt="chart" height="200px" src="https://github.com/zhekovdobri/Angular-project-Pizza/blob/main/src/assets/images/Pizza_chart_diagram.png">
+<img align="right" alt="chart" height="200px" src="https://github.com/zhekovdobri/Angular-Pizza-app/blob/main/Pizza_language_chart.png">
 </div>
 
 * _TypeScript_
