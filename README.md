@@ -48,7 +48,7 @@ On this project I used SCSS instead CSS. Next to it I created a form which hold 
 
 ## Directory structure:
 
-<img alt="chart" src="https://github.com/zhekovdobri/Angular-project-Pizza/blob/main/src/assets/images/Directory%20Tree%20Pizza.png">
+<img alt="chart" src="https://github.com/zhekovdobri/Angular-Pizza-app/blob/main/assets/images/Directory%20Tree%20Pizza.png">
 
 ## Setup/Installation Requirements
 
