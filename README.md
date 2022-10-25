@@ -83,7 +83,7 @@ On this project I used SCSS instead CSS. Next to it I created a form which hold 
 </div>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <div class=pull-right>
-<img align="right" alt="chart" height="100px" src="https://github.com/zhekovdobri/Angular-project-Animation/blob/13623e56193965cc9087844ff371f984af0c11ee/src/assets/images/Directory_structure2-removebg-preview.png">
+<img align="right" alt="chart" height="100px" src="https://github.com/zhekovdobri/JavaScript_Number_Game/blob/main/Directory_structure_logo.png?raw=true">
 </div>
 
 ## Directory structure:
